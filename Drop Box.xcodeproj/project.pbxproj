@@ -14,6 +14,16 @@
 		4FFF600C1CF160230087ED8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFF600A1CF160230087ED8B /* LaunchScreen.storyboard */; };
 		4FFF60171CF160230087ED8B /* Drop_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60161CF160230087ED8B /* Drop_BoxTests.swift */; };
 		4FFF60221CF160230087ED8B /* Drop_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60211CF160230087ED8B /* Drop_BoxUITests.swift */; };
+		4FFF60F51CF357190087ED8B /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60F41CF357190087ED8B /* SignOutViewController.swift */; };
+		4FFF60F71CF35C6F0087ED8B /* NewAccountGreatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60F61CF35C6F0087ED8B /* NewAccountGreatViewController.swift */; };
+		4FFF60F91CF35CD20087ED8B /* ViewTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60F81CF35CD20087ED8B /* ViewTermsViewController.swift */; };
+		4FFF60FB1CF35D0A0087ED8B /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60FA1CF35D0A0087ED8B /* TermsViewController.swift */; };
+		4FFF60FD1CF3EF790087ED8B /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60FC1CF3EF790087ED8B /* LogOutViewController.swift */; };
+		4FFF60FF1CF3EFF50087ED8B /* TroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF60FE1CF3EFF50087ED8B /* TroubleViewController.swift */; };
+		4FFF61011CF3F4680087ED8B /* SignIn3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF61001CF3F4680087ED8B /* SignIn3ViewController.swift */; };
+		4FFF61031CF40AD50087ED8B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF61021CF40AD50087ED8B /* PhotosViewController.swift */; };
+		4FFF61051CF40B020087ED8B /* Settings2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF61041CF40B020087ED8B /* Settings2ViewController.swift */; };
+		4FFF61071CF40B530087ED8B /* Settings1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF61061CF40B530087ED8B /* Settings1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		4FFF601D1CF160230087ED8B /* Drop BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drop BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFF60211CF160230087ED8B /* Drop_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop_BoxUITests.swift; sourceTree = "<group>"; };
 		4FFF60231CF160230087ED8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFF60F41CF357190087ED8B /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		4FFF60F61CF35C6F0087ED8B /* NewAccountGreatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountGreatViewController.swift; sourceTree = "<group>"; };
+		4FFF60F81CF35CD20087ED8B /* ViewTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTermsViewController.swift; sourceTree = "<group>"; };
+		4FFF60FA1CF35D0A0087ED8B /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		4FFF60FC1CF3EF790087ED8B /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		4FFF60FE1CF3EFF50087ED8B /* TroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleViewController.swift; sourceTree = "<group>"; };
+		4FFF61001CF3F4680087ED8B /* SignIn3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn3ViewController.swift; sourceTree = "<group>"; };
+		4FFF61021CF40AD50087ED8B /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		4FFF61041CF40B020087ED8B /* Settings2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings2ViewController.swift; sourceTree = "<group>"; };
+		4FFF61061CF40B530087ED8B /* Settings1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,7 @@
 		4FFF60001CF160230087ED8B /* Drop Box */ = {
 			isa = PBXGroup;
 			children = (
+				4FFF60F31CF356C00087ED8B /* View Controllers */,
 				4FFF60011CF160230087ED8B /* AppDelegate.swift */,
 				4FFF60031CF160230087ED8B /* ViewController.swift */,
 				4FFF60051CF160230087ED8B /* Main.storyboard */,
@@ -123,6 +144,23 @@
 				4FFF60231CF160230087ED8B /* Info.plist */,
 			);
 			path = "Drop BoxUITests";
+			sourceTree = "<group>";
+		};
+		4FFF60F31CF356C00087ED8B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FFF60F41CF357190087ED8B /* SignOutViewController.swift */,
+				4FFF60F61CF35C6F0087ED8B /* NewAccountGreatViewController.swift */,
+				4FFF60F81CF35CD20087ED8B /* ViewTermsViewController.swift */,
+				4FFF60FA1CF35D0A0087ED8B /* TermsViewController.swift */,
+				4FFF60FC1CF3EF790087ED8B /* LogOutViewController.swift */,
+				4FFF60FE1CF3EFF50087ED8B /* TroubleViewController.swift */,
+				4FFF61001CF3F4680087ED8B /* SignIn3ViewController.swift */,
+				4FFF61021CF40AD50087ED8B /* PhotosViewController.swift */,
+				4FFF61041CF40B020087ED8B /* Settings2ViewController.swift */,
+				4FFF61061CF40B530087ED8B /* Settings1ViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +295,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FFF60041CF160230087ED8B /* ViewController.swift in Sources */,
+				4FFF61071CF40B530087ED8B /* Settings1ViewController.swift in Sources */,
+				4FFF60F51CF357190087ED8B /* SignOutViewController.swift in Sources */,
+				4FFF60FF1CF3EFF50087ED8B /* TroubleViewController.swift in Sources */,
+				4FFF61051CF40B020087ED8B /* Settings2ViewController.swift in Sources */,
 				4FFF60021CF160230087ED8B /* AppDelegate.swift in Sources */,
+				4FFF60F91CF35CD20087ED8B /* ViewTermsViewController.swift in Sources */,
+				4FFF61011CF3F4680087ED8B /* SignIn3ViewController.swift in Sources */,
+				4FFF60FB1CF35D0A0087ED8B /* TermsViewController.swift in Sources */,
+				4FFF60F71CF35C6F0087ED8B /* NewAccountGreatViewController.swift in Sources */,
+				4FFF60FD1CF3EF790087ED8B /* LogOutViewController.swift in Sources */,
+				4FFF61031CF40AD50087ED8B /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
